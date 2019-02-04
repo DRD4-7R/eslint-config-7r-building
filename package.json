@@ -1,6 +1,6 @@
 {
   "name": "@7r/eslint-config-7r-building",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package includes the shareable ESLint configuration used by 7r building team.",
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
   "peerDependencies": {
     "babel-eslint": "9.x",
     "eslint": "5.x",
-    "eslint-plugin-flowtype": "2.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-react": "7.x"
