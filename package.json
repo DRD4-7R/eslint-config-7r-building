@@ -1,6 +1,6 @@
 {
   "name": "@7r/eslint-config-7r-building",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This package includes the shareable ESLint configuration used by 7r building team.",
   "repository": {
     "type": "git",
