@@ -1,6 +1,6 @@
 {
   "name": "@7r/eslint-config-7r-building",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package includes the shareable ESLint configuration used by 7r building team.",
   "repository": {
     "type": "git",
@@ -11,9 +11,6 @@
     "url": "https://github.com/DRD4-7R/eslint-config-7r-building/issues"
   },
   "homepage": "https://github.com/DRD4-7R/eslint-config-7r-building#readme",
-  "scripts": {
-    "release": "np"
-  },
   "files": [
     "index.js"
   ],
@@ -27,8 +24,5 @@
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.5"
-  },
-  "devDependencies": {
-    "np": "^4.0.2"
   }
 }
