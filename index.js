@@ -26,7 +26,7 @@ module.exports = {
     'prettier/react'
   ],
 
-  plugins: ['import', 'jsx-a11y', 'react'],
+  plugins: ['import', 'jsx-a11y', 'react', 'prettier'],
 
   env: {
     browser: true,
