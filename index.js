@@ -181,6 +181,28 @@ module.exports = {
       },
     ],
     'getter-return': 'warn',
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "semi": [2, "never"],
+    "lines-between-class-members": ["error", "always"],
+
+    // https://github.com/prettier/eslint-plugin-prettier
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "none",
+        "singleQuote": true,
+        "printWidth": 120,
+        "semi": false,
+        "tabWidth": 2
+      }
+    ],
 
     // https://github.com/benmosher/eslint-plugin-import/tree/master/docs/rules
     'import/first': 'error',
