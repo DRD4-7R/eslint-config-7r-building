@@ -19,6 +19,13 @@ module.exports = {
 
   parser: 'babel-eslint',
 
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'prettier',
+    'prettier/react'
+  ],
+
   plugins: ['import', 'jsx-a11y', 'react'],
 
   env: {

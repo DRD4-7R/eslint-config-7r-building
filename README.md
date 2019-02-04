@@ -12,7 +12,7 @@ Then create a file named `.eslintrc.json` with following contents in the root fo
 
 ```json
 {
-  "extends": "7r-building"
+  "extends": "@7r/eslint-config-7r-building"
 }
 ```
 
