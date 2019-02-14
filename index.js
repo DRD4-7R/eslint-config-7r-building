@@ -55,7 +55,8 @@ module.exports = {
     'array-callback-return': 'warn',
     'default-case': ['warn', { commentPattern: '^no default$' }],
     'dot-location': ['warn', 'property'],
-    eqeqeq: ['warn', 'smart'],
+    'eol-last': 'always',
+    'eqeqeq': ['warn', 'smart'],
     'new-parens': 'warn',
     'no-array-constructor': 'warn',
     'no-caller': 'warn',
@@ -117,6 +118,13 @@ module.exports = {
     'no-template-curly-in-string': 'warn',
     'no-this-before-super': 'warn',
     'no-throw-literal': 'warn',
+    'no-trailing-spaces': [
+      'error',
+      {
+        'skipBlankLines': false,
+        'ignoreComments': false
+      }
+    ],
     'no-undef': 'error',
     'no-restricted-globals': ['error'].concat(restrictedGlobals),
     'no-unexpected-multiline': 'warn',
