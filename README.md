@@ -16,4 +16,7 @@ Then create a file named `.eslintrc.json` with following contents in the root fo
 }
 ```
 
+**NB:** if you're using [the extension ESLint for VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint),
+you may want to call that file `.eslintrc` instead, since the extension doesn't seem to find the file otherwise.
+
 That's it! You can override the settings from `eslint-config-7r-building` by editing the `.eslintrc.json` file. Learn more about [configuring ESLint](http://eslint.org/docs/user-guide/configuring) on the ESLint website.
