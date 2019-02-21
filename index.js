@@ -55,7 +55,7 @@ module.exports = {
     'array-callback-return': 'warn',
     'default-case': ['warn', { commentPattern: '^no default$' }],
     'dot-location': ['warn', 'property'],
-    'eol-last': 'always',
+    'eol-last': 'error',
     'eqeqeq': ['warn', 'smart'],
     'new-parens': 'warn',
     'no-array-constructor': 'warn',
